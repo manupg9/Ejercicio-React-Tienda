@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 🛒 Tienda React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Descripción
 
-## Available Scripts
+Este proyecto es una aplicación web de una tienda online desarrollada como práctica utilizando **React**. La aplicación permite visualizar productos, ver su detalle, añadirlos al carrito y gestionar el proceso de compra de forma básica.
 
-In the project directory, you can run:
+El objetivo principal ha sido aprender a trabajar con componentes, rutas, estado y estructura de una aplicación real en React.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Tecnologías utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este proyecto ha sido desarrollado utilizando las siguientes tecnologías:
 
-### `npm test`
+* ⚛️ **React** → Librería principal para la interfaz
+* 🟨 **JavaScript (ES6+)** → Lenguaje de programación
+* 🎨 **CSS3** → Estilos de la aplicación
+* 🌐 **HTML5** → Estructura base
+* 🔀 **React Router DOM** → Navegación entre páginas
+* 📦 **Node.js y npm** → Gestión de dependencias
+* 💻 **Visual Studio Code** → Editor de código
+* 🗂️ **Git y GitHub** → Control de versiones
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 Estructura de la aplicación
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La tienda está organizada en varios componentes principales:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* **Home** → Página principal
+* **Productos** → Lista de productos
+* **ProductoDetalle** → Información detallada del producto
+* **Carrito** → Productos añadidos al carrito
+* **Login / Registro** → Simulación de usuarios
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ▶️ Cómo ejecutar el proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Sigue estos pasos:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 1. Clonar el repositorio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/tu-usuario/tu-repo.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### 2. Entrar en la carpeta
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd nombre-del-proyecto
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### 3. Instalar dependencias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 4. Ejecutar la aplicación
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+### 5. Abrir en el navegador
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Se abrirá automáticamente en:
 
-### Deployment
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🛍️ Cómo usar la tienda
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+El usuario puede:
+
+* Ver la lista de productos
+* Acceder al detalle de cada producto
+* Añadir productos al carrito
+* Navegar entre las distintas páginas
+* Simular inicio de sesión y registro
+
+---
+
+## 🎯 Objetivo educativo
+
+Este proyecto ha sido creado con fines educativos para aprender:
+
+* Creación de componentes en React
+* Uso de estados
+* Uso de rutas
+* Organización de proyectos
+* Funcionamiento de una aplicación web moderna
+
+---
+
+## 👨‍💻 Autor
+
+Proyecto realizado íntegramente por:
+
+**Manuel Perez Garcia**
+
+---
+
+## 📅 Fecha
+
+2025
+
+---
+
